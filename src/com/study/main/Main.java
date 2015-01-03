@@ -7,12 +7,14 @@
 
 package com.study.main;
 
+import com.study.service.Calculator;
+
 /**
  * @author Kanghoon Choi
  */
 public class Main {
 
 	public static void main(String[] args) {
-		dfsdfsdf
+		System.out.println(new Calculator().add(5, 10));
 	}
 }
